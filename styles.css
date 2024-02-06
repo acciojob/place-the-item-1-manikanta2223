@@ -1,8 +1,12 @@
+.container{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap-reverse;
+}
 .holder{
 	width:100px;
 	height:100px;
-	display:flex;
-	flex-wrap:row;
+	margin:10px;
 }
 #item-1{
 	background-color:red;

@@ -1,19 +1,14 @@
-.container{
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap-reverse;
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Break rows when content overflows */
+  justify-content: space-between; /* Distribute evenly, touching ends */
+  margin: 0 auto; /* Center horizontally */
 }
-.holder{
-	width:100px;
-	height:100px;
-	margin:10px;
-}
-#item-1{
-	background-color:red;
-}
-#item-2{
-	background-color:green;
-}
-#item-3{
-	background-color:blue;
+
+.item {
+  /* Basic styling for individual items */
+  border: 1px solid #ccc; /* Optional visual separation */
+  padding: 10px;
+  align-items: center; /* Vertically center content */
+  flex-direction: column; /* Allow content wrapping within items */
 }
